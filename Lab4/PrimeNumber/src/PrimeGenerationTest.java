@@ -18,13 +18,29 @@ public class PrimeGenerationTest {
 		ArrayList<Integer> emptyList = new ArrayList<Integer>();
 		assertEquals(emptyList, PrimeNumber.primeNumberGenerator(1));
 	}
+	@Test
 	public void testTwo() {
 		ArrayList<Integer> emptyList = new ArrayList<Integer>();
 		assertEquals(emptyList, PrimeNumber.primeNumberGenerator(1));
 	}
+	@Test
 	public void testThree() {
 		assertEquals(makeList(2), PrimeNumber.primeNumberGenerator(3)); 
 	}
+	@Test
+	public void testFour() {
+		assertEquals(makeList(2,3), PrimeNumber.primeNumberGenerator(4)); 
+	}
+	@Test
+	public void testSix() {
+		assertEquals(makeList(2,3,5), PrimeNumber.primeNumberGenerator(6)); 
+	}
+	@Test
+	public void testThirteen() {
+		assertEquals(makeList(2,3,5,7,11), PrimeNumber.primeNumberGenerator(13)); 
+	}
+	
+	
 	
 	
 	
