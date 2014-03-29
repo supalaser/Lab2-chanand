@@ -36,10 +36,13 @@ public class PrimeNumber {
 	 */
 	public static ArrayList<Integer> primeNumberGenerator(int n) {
 		ArrayList<Integer> results = new ArrayList<Integer>();
-		if(n==2){
-			results.add(n);
+		int check = 2;
+		while (check<n){
+			if(PrimeNumber.getPrimeFactors(check).contains(check)){
+				results.add(check);
+			}
+			check++;
 		}
-		
 		return results;
 		
 	}
