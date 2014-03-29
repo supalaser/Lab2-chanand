@@ -34,8 +34,12 @@ public class PrimeNumber {
 	 * @param i 
 	 *
 	 */
-	public static ArrayList<Integer> primeNumberGenerator(int i) {
+	public static ArrayList<Integer> primeNumberGenerator(int n) {
 		ArrayList<Integer> results = new ArrayList<Integer>();
+		if(n==2){
+			results.add(n);
+		}
+		
 		return results;
 		
 	}
