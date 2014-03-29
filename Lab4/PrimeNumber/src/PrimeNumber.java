@@ -35,7 +35,8 @@ public class PrimeNumber {
 	 *
 	 */
 	public static ArrayList<Integer> primeNumberGenerator(int i) {
-		return null;
+		ArrayList<Integer> results = new ArrayList<Integer>();
+		return results;
 		
 	}
 	
