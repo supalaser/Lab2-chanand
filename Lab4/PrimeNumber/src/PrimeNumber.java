@@ -28,6 +28,16 @@ public class PrimeNumber {
 		}
 		return results;
 	}
+
+	/**
+	 * TODO Put here a description of what this method does.
+	 * @param i 
+	 *
+	 */
+	public static ArrayList<Integer> primeNumberGenerator(int i) {
+		return null;
+		
+	}
 	
 
 }
